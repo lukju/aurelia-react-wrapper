@@ -1,0 +1,29 @@
+{
+    "name": "aurelia-react-wrapper",
+    "description": "Aurelia wrappers for Office UI Fabric React components",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types" : "dist/index.d.ts",
+    "keywords": [
+        "aurelia",
+        "office ui fabric",
+        "react",
+        "wrapper"
+    ],
+    "scripts": {
+        "build": "./node_modules/.bin/tsc"
+    },
+    "version": "0.1.2",
+    "dependencies": {
+        "@types/react": "^16.7.6",
+        "@types/react-dom": "^16.0.9",
+        "aurelia-framework": "^1.3.0",
+        "aurelia-react-element": "^0.2.0",
+        "office-ui-fabric-react": "^6.104.0",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "devDependencies": {
+        "typescript": "^3.1.6"
+    }
+}
