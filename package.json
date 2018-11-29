@@ -13,7 +13,7 @@
     "scripts": {
         "build": "./node_modules/.bin/tsc"
     },
-    "version": "0.3.3",
+    "version": "0.3.5",
     "dependencies": {
         "@pnp/spfx-controls-react": "1.10.0",
         "@types/react": "^16.7.6",
