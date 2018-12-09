@@ -1,7 +1,6 @@
 import { bindable } from "aurelia-framework";
-import ReactElement from "aurelia-react-element";
+import ReactElement from "./react-element";
 import {ColorPicker as ReactColorPicker} from "office-ui-fabric-react";
-
 
 export class ColorPicker extends ReactElement {
 

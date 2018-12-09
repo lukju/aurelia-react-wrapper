@@ -1,0 +1,16 @@
+<template>
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.5.0/css/fabric.min.css" />
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.5.0/css/fabric.components.min.css" />
+    <require from="ofice-ui-fabric-js"></require>
+    <div class="ms-Panel ${position == 'left' ? 'ms-Panel--left': ''} ms-Panel--${size}" ref="panel">
+        <button class="ms-Panel-closeButton ms-PanelAction-close">
+            <i class="ms-Panel-closeIcon ms-Icon ms-Icon--Cancel"></i>
+        </button>
+        <div class="ms-Panel-contentInner">
+            <p class="ms-Panel-headerText">${title}</p>
+            <div class="ms-Panel-content">
+                <slot></slot>
+            </div>
+        </div>
+    </div>
+</template>
