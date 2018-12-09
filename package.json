@@ -3,7 +3,7 @@
     "description": "Aurelia wrappers for Office UI Fabric React components",
     "license": "MIT",
     "main": "dist/index.js",
-    "types" : "dist/index.d.ts",
+    "types": "dist/index.d.ts",
     "keywords": [
         "aurelia",
         "office ui fabric",
@@ -13,8 +13,9 @@
     "scripts": {
         "build": "./node_modules/.bin/tsc"
     },
-    "version": "0.1.2",
+    "version": "0.3.5",
     "dependencies": {
+        "@pnp/spfx-controls-react": "1.10.0",
         "@types/react": "^16.7.6",
         "@types/react-dom": "^16.0.9",
         "aurelia-framework": "^1.3.0",
