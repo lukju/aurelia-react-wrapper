@@ -1,5 +1,5 @@
 import { bindable, observable } from "aurelia-framework";
-import ReactElement from "aurelia-react-element";
+import ReactElement from "./react-element";
 import { Placeholder as ReactPlaceholder } from "@pnp/spfx-controls-react/lib/Placeholder";
 
 export class Placeholder extends ReactElement {

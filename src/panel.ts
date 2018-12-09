@@ -1,5 +1,5 @@
 import { bindable, observable } from "aurelia-framework";
-import ReactElement from "aurelia-react-element";
+import ReactElement from "./react-element";
 import { Panel as ReactPanel, PanelType } from "office-ui-fabric-react";
 
 export class Panel extends ReactElement {

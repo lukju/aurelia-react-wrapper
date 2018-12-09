@@ -1,5 +1,5 @@
 import { bindable, observable } from "aurelia-framework";
-import ReactElement from "aurelia-react-element";
+import ReactElement from "./react-element";
 import { Persona as ReactPersona } from "office-ui-fabric-react";
 
 export class Persona extends ReactElement {

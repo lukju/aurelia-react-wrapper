@@ -1,5 +1,5 @@
 import { bindable, observable } from "aurelia-framework";
-import ReactElement from "aurelia-react-element";
+import ReactElement from "./react-element";
 import { FieldUserRenderer as ReactFieldUserRenderer } from "@pnp/spfx-controls-react/lib/FieldUserRenderer";
 
 export class FieldUserRenderer extends ReactElement {
